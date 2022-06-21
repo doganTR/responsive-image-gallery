@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    text-align: center;
+    padding: 25px;
+    font-family: 'Anek Latin', sans-serif;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 5px;
+}
+
+.colomn {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 5px;
+}          
+
+/* Created by Doğan */
+
+.colomn img {
+    margin-top: 10px;
+    width: 100%;
+    vertical-align: middle;
+}
+
+@media(max-width:800px) {
+    .colomn {
+        flex: 50%;
+        max-width: 100%;
+    }
+}
